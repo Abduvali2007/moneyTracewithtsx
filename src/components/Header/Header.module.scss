@@ -1,0 +1,84 @@
+.header {
+  position: relative;
+  background: rgb(14, 13, 13);
+  padding: 15px 0;
+  color: white;
+  .tags {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+      font-size: 24px;
+      border-bottom: 4px solid white;
+    }
+    .tag {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      a {
+        color: white;
+      }
+      a:hover {
+        border-bottom: 3px solid blue;
+      }
+    }
+    .icons {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      .btn1 {
+        color: white;
+        background: transparent;
+        font-size: 15px;
+        border: none;
+      }
+      .btn2 {
+        color: white;
+        border: 2px solid white;
+        padding: 6px 20px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        background: transparent;
+        gap: 5px;
+      }
+    }
+  }
+}
+.modal {
+  position: absolute;
+  background: white;
+  border: 2px solid black;
+  width: 35%;
+  height: 350px;
+  text-align: center;
+  border-radius: 20px;
+  left: 30%;
+  top: 100px;
+  color: black;
+  span {
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+  }
+  h2 {
+    padding: 10px 0;
+  }
+  .forms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    input {
+      padding: 8px 40px;
+      border-radius: 10px;
+    }
+    button {
+      padding: 8px 20px;
+      border: 2px solid black;
+      border-radius: 10px;
+    }
+  }
+}
